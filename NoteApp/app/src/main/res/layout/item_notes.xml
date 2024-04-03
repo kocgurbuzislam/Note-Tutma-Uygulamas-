@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#707070"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+        
+        <View
+            android:id="@+id/viewPriority"
+            android:layout_width="20dp"
+            android:layout_height="20sp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="@drawable/red_dot"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:id="@+id/notesTitle"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:maxLines="1"
+                android:fontFamily="@font/manrope_bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/notesSubTitle"
+                android:text="ldqldlq qşldşlqwdqşlqlwşqlşdqwldqlwldqşdlqwöşdqlşwdöqöşdqlwşqşlqdqwlşöldqşl"
+                android:textColor="#D8D8D8"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/manrope_regular"/>
+
+            <TextView
+                android:id="@+id/notesDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="29 Mart 2024"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:fontFamily="@font/manrope_bold"/>
+
+
+        </LinearLayout>
+
+
+        
+    </androidx.cardview.widget.CardView>
+
+    
+    
+</LinearLayout>
